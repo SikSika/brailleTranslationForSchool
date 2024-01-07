@@ -74,7 +74,7 @@ header p {
 
 .logo {
   display: inline-block;
-  height: 50px;
+  height: 80px;
 }
 
 .nav-buttons {
@@ -123,7 +123,7 @@ header p {
 }
 
 /* FAQ Section Styles */
-#faq {
+#faq{
   background-color: #F8F8F8;
   padding: 40px;
   text-align: center;
@@ -152,5 +152,46 @@ p {
 .scroll-anim-active {
   opacity: 1;
   transform: translateX(0);
+}
+
+
+/*main contents wrapper*/
+#wrapper p {
+  color: black;
+}
+
+
+/*form*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }
 
