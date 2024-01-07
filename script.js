@@ -63,6 +63,7 @@ document.getElementById("contactForm").addEventListener("submit", function (even
   formData.append("phone", phoneNumber);
   formData.append("message", message);
   formData.append("address", shippingAddress);
+  formData.append("bookTitle", bookTitle)
 
   fetch("https://script.google.com/macros/s/AKfycbyhudbl2TWK04pLvuTdJ4Xlu96Nl07oElXEPLql0smOjqs-Eg88zTHjbCaEi2EajsyllQ/exec", {
     method: "POST",
