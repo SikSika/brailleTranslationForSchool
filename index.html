@@ -12,7 +12,7 @@
   </header>
 
   <div class="sticky-banner">
-    <img src="photos/logo.png" alt="Braille Book Translation Logo" class="logo">
+    <img src="logo.png" alt="Braille Book Translation Logo" class="logo">
     <div class="nav-buttons">
       <a href="#request-form">Request a Translation</a>
       <a href="#services">Our Services</a>
@@ -27,28 +27,74 @@
     </div>
   </div>
 
+<div id="wrapper">
   <section id="services" class="scroll-anim">
     <h2>Our Services</h2>
-    <!-- Add detailed service information here -->
+    <p>1. Translating Books into Braille: We offer professional translation services to convert normal books into braille. Our team of skilled translators ensures accurate and high-quality translations, preserving the essence and meaning of the original text.</p>
+    <p>2. 3D Printing of Braille Books: Once the translation is complete, we utilize advanced 3D printing technology to create physical braille versions of the translated books. These tactile books allow visually impaired individuals to read and experience the content through touch.</p>
   </section>
 
   <section id="request-form" class="scroll-anim">
     <h2>Request a Translation</h2>
-    <!-- Add the request form here -->
+    <p>To request a translation of a book into braille, please fill in this form below:</p>
+    <section id="request-form" class="scroll-anim">
+      <form id="contactForm" enctype="multipart/form-data">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required>
+
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+
+         <label for="bookTitle">Book Title:</label>
+         <input type="text" id="bookTitle" name="bookTitle" required>
+
+         <label for="author">Author:</label>
+         <input type="text" id="author" name="author" required>
+
+         <label for="phone">Phone:</label>
+         <input type="tel" id="phone" name="phone" required>
+
+         <label for="message">Message:</label>
+         <textarea id="message" name="message" required></textarea>
+
+         <label for="address">Shipping Address:</label>
+         <textarea id="address" name="address" required></textarea>
+
+         <button type="submit">Submit</button>
+       </form>
+    </section>
   </section>
 
   <section id="about" class="scroll-anim">
     <h2>About Us</h2>
-    <!-- Add information about your company and team here -->
+    <p>At Creative Secondary School, we are a team of passionate students dedicated to making literature accessible to visually impaired individuals. Our mission is to bridge the gap between the sighted and visually impaired communities by providing high-quality braille translations and 3D-printed braille books. We believe that everyone deserves the opportunity to enjoy the magic of reading and explore the vast world of literature.</p>
   </section>
 
   <section id="faq" class="scroll-anim">
     <h2>Frequently Asked Questions</h2>
-    <!-- Add FAQ content here -->
+    <ol>
+      <li>
+        <h3>How long does the translation process take?</h3>
+        <p>The duration of the translation process depends on various factors such as the length and complexity of the book. However, on average, it takes approximately [insert estimated time] to complete the translation.</p>
+      </li>
+      <li>
+        <h3>Can I request a translation of any book?</h3>
+        <p>Yes, we accept requests for the translation of a wide range of books, including fiction, non-fiction, educational materials, and more. Simply provide us with the details of the book, and we will assess the feasibility of the translation.</p>
+      </li>
+      <li>
+        <h3>How accurate are your translations?</h3>
+        <p>Our team of skilled translators is experienced in translating books into braille with a high degree of accuracy. We strive to maintain the integrity and essence of the original text while ensuring that the braille version is easily understandable for visually impaired readers.</p>
+      </li>
+      <li>
+        <h3>How do you ensure the privacy and security of the books submitted for translation?</h3>
+        <p>We understand the importance of privacy and confidentiality. Rest assured that we have strict measures in place to safeguard the books and information provided to us. We adhere to a strictprivacy policy and only authorized personnel are involved in the translation process.</p>
+      </li>
+    </ol>
   </section>
+</div>
 
   <footer>
-    <p>Contact us at &#160;&#160;&#160; brailleTranslation@gmail.com</p>
+    <p>Contact us at  brailleTranslation@gmail.com</p>
   </footer>
 
   <script src="script.js"></script>
