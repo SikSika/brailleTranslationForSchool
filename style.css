@@ -4,11 +4,21 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  background-color: black;
 }
 
-h1,
-h2 {
+h1{
   color: #333;
+}
+
+h2{
+  color: #fdd401;;
+}
+
+#arrow {
+
+  height: 150px;
+  padding-left: 70vh;
 }
 
 p {
@@ -34,7 +44,7 @@ header {
   background-image: url('header-background.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,6 +83,7 @@ header p {
 }
 
 .logo {
+  padding-left: 10px;
   display: inline-block;
   height: 80px;
 }
@@ -103,28 +114,28 @@ header p {
 
 /* Services Section Styles */
 #services {
-  background-color: #FFF;
+  background-color: #262626;
   padding: 40px;
   text-align: center;
 }
 
 /* Request Form Section Styles */
 #request-form {
-  background-color: #F8F8F8;
+  background-color: #161616;
   padding: 40px;
   text-align: center;
 }
 
 /* About Us Section Styles */
 #about {
-  background-color: #FFF;
+  background-color: #262626;
   padding: 40px;
   text-align: center;
 }
 
 /* FAQ Section Styles */
 #faq{
-  background-color: #F8F8F8;
+  background-color: #161616;
   padding: 40px;
   text-align: center;
 }
@@ -145,19 +156,21 @@ p {
 
 .scroll-anim {
   opacity: 0;
+  color: #fdd401;
   transform: translateX(-200px);
   transition: opacity 2s ease, transform 2s ease;
 }
 
 .scroll-anim-active {
   opacity: 1;
+  color: #fdd401;
   transform: translateX(0);
 }
 
 
 /*main contents wrapper*/
 #wrapper p {
-  color: black;
+  color: #fdd401;
 }
 
 
